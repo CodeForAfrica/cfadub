@@ -27,7 +27,7 @@ export const GET = withWorkspace(
       domain,
       key,
       folderId,
-    } = parsedParams;
+    } = parsedParams as any;
 
     let link: Link | null = null;
 
